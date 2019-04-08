@@ -1,3 +1,7 @@
+
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 /* Reset */
 html, body, div, span, applet, object, iframe,
@@ -52,10 +56,7 @@ table {
 @media only screen and (min-width: 1200px) and (max-width: 1800px) {
 .job_home {width: 33.3333333%;}
 }
-/* Screen 1200 */
-@media only screen and (max-width: 1200px) {
-.job_home {width: 50%;}
-}
+
 /* Screen 1024 */
 @media only screen and (max-width: 1024px) {
 #hat #logo {margin-left: 20px; width: 300px;}
@@ -70,84 +71,32 @@ table {
 /* Lavori 1024 */
 body .nav_portfolio_item {margin-right: 200px;}
 }
-@media only screen and (max-width: 768px) {
-  /* Screen 768 */
-  body #hat {padding-bottom: 40px;}
-  #hat #logo {width: 50px; height: 65px; position:relative; margin: 0 auto; margin-bottom: 20px;}
-  #hat #my_logo {padding-top: 10px; padding-left: 0;}
-  #hat #my_logo span {visibility:hidden;}
-  #hat #primary_nav {position:relative; top: 0; right: 10px;}
-  #hat #my_logo, #primary_nav li {font-size: 14px;}
-  footer #social li {margin-left: 5px;}
-  /* Content */
-  .content_center {text-align:center;}
-  .slot .title_section {font-size: 30px;}
-  .slot .primaty_text {font-size: 16px; line-height: 26px; width: 96%; margin: 20px auto;}
-  .slot .job_home h2 {font-size: 30px;}
-  /* Footer */
-  footer #social {font-size: 10px; width: 50%;}
-  footer #social ul {text-align: left;}
-  /* Expertise */
-  .slot .list_expertise li {margin: 5px 18px; font-size: 14px;}
-  body #first_slot {padding-bottom: 30px;}
-  body #first_slot h3, #design h3, #responsive h3 {font-size: 18px; line-height: 30px;}
-  /* Lavori */
-  body #first_slot.lavori {padding-bottom: 0;}
-  body .nav_portfolio_item {margin-right: 100px;}
-}
-@media only screen and (max-width: 640px) {
-  /* Screen 640 */
-  body footer {height: 100px;}
-  footer #social {float:none; width: 100%;}
-  footer #social p, #social ul, #allsize p {float: none; display: inline;}
-  #allsize #size {float: none; margin: 10px auto;}
-  #allsize li#small {opacity: 1;}
-  #allsize li#medium {opacity: 0.2;}
-  /* Lavori */
-  body .nav_portfolio_item {margin-right: 50px; font-size: 14px; font-weight: 400;}
-}
-@media only screen and (max-width: 600px) {
-  /* Screen 600 */
-  .job_home {width: 100%;}
-  /* Typography */
-  .slot .primary_text {font-size: 14px; padding: 0 14px; line-height: 30px;}
-  /* Expertise */
-  body #first_slot h3, #design h3, #responsive h3 {font-size: 14px; line-height: 26px;}
-  .slot .list_expertise li {margin: 5px 14px;font-size: 12px;}
-  /* Lavori */
-  #slot_job #container_img_slide {height: 200px;}
-  #slot_job #name_job {font-size: 20px; top:45%;}
-}
-@media only screen and (max-width: 400px) {
-  /* Screen 400 */
-  #hat #primary_nav {right: 0;}
-  #hat #primary_nav li {font-size: 13px; margin-left: 10px;}
-  /* Lavori */
-  body .nav_portfolio_item {margin-right: 30px; font-size: 12px; font-weight: 400;}
-  #slot_job #container_img_slide {height: 150px;}
-}
-/* General */
+
+
+
+
+/*fix l'en-tête */
 body {font-family: 'Lato', sans-serif; color:#000; font-weight: 300;}
 .content_center {position:relative; overflow: hidden;}
 .left {float:left;}
 .right {float:right;}
 .slot {padding:150px 0; text-align:center; padding-bottom: 0;}
 .gray {background:#f1efed;}
-.back_top {width:100%; text-transform:uppercase; font-size:12px; margin:0 auto; background:url(../img/px_gray.gif) 0 50% repeat-x; position:relative; top:30px; display:none;}
+.back_top {width:100%; text-transform:uppercase; font-size:12px; margin:0 auto; background:url(images/Hope.jpeg) 0 50% repeat-x; position:relative; top:30px; display:none;}
 .back_top span {background:#fff; padding:10px;}
 
-/* Header */
+/* l'en-tête */
 #hat {background:#fff; position:fixed; width:100%; z-index:1000;}
 #logo_little {visibility:hidden; height:0;}
 #logo {margin-left: 50px; width: 400px;}
 #logo_sx {font-weight: 700;}
-#my_logo {height:89px; font-size:18px; text-transform:uppercase; background:url(../img/freedance_logo.png) no-repeat 0 50%; padding-top:50px; padding-left:100px;}
+#my_logo {height:89px; font-size:18px; text-transform:uppercase; background:url(images/Hope.jpeg) no-repeat 0 50%; padding-top:50px; padding-left:100px;}
 #logo a:link, #logo a:visited {color:#000;}
 #primary_nav {position:absolute; top:58px; right:50px;}
 #primary_nav li {display:inline; text-transform:uppercase; font-size:18px; margin-left:20px; padding-top:20px; font-weight: 400;}
 #primary_nav li a:hover {color:#95a5a6;}
 
-/* Typografy */
+/* les titres */
 li {list-style:none;}
 a {text-decoration:none; color:#95a5a6;}
 a:link, a:visited {color:#000;}
@@ -158,7 +107,7 @@ a:link, a:visited {color:#000;}
 .title_slot {color:#95a5a6;}
 .text_gray {color:#95a5a6;}
 
-/* Jobs in HP */
+/* les images */
 .job_home {position:relative; text-align:center; margin:0; float:left; max-width: 600px; background: #000;}
 .job_home a {color:#fff;}
 .job_home a:hover h2 {opacity:1;}
@@ -182,40 +131,25 @@ footer {background:#000; width:100%; float:left; height:54px; text-transform:upp
 #allsize {margin:12px 10px;}
 #allsize p {font-size:0.75em; color:#fff; margin-left:10px; margin-top:8px;}
 #size {float:right; text-align:right; width:100px;}
-#size li {background:url(../img/size_sprite.png) no-repeat scroll 0 0 transparent; float:left; height:0; margin:0 0 0 10px; opacity:0.2; overflow:hidden; padding-top:28px;}
+#size li {background:url(images/size_sprite.png) no-repeat scroll 0 0 transparent; float:left; height:0; margin:0 0 0 10px; opacity:0.2; overflow:hidden; padding-top:28px;}
 li#large {opacity:1;}
 li#large {background-position:-3px 0; width:33px;}
 li#medium {background-position:-50px 0; width:19px;}
 li#small {background-position:-80px 0; width: 12px;}
 
-/* Expertise */
-.expertise {border-bottom:4px solid #f1efed;}
-.list_expertise {width:100%; overflow:auto;}
-.list_expertise li {font-weight: 400; color:#000; text-transform:uppercase; font-size:18px; display:inline-block; background:url(../img/dot_gray.png) 50% 0 no-repeat; padding-top:10px; margin:18px;}
-.list_expertise li p {display:inline;}
-.last_expertise {border:none;}
-#design, #responsive {padding-top: 30px; padding-bottom: 30px;}
 
-/* Lavori */
-#first_slot.lavori {padding-bottom: 0;}
 
-/*Dett Portfolio */
-#nav_portfolio {text-align:center; position:fixed; width:100%; background:#f1efed; z-index:999;}
-.nav_portfolio_item {display:inline-block; margin-right:350px; font-size:18px; text-transform:uppercase; margin-top:20px; margin-bottom:20px;}
-.nav_portfolio_item.last {margin-right:0;}
-.type_portfolio {text-transform:uppercase; font-size:18px; color:#95a5a6; position:relative;  margin:0 auto;  width:100%;  bottom:-10px;}
-.type_portfolio span {background:#FFF; padding:20px;}
-#slot_job { padding-top:50px;}
-#container_img_slide {width:100%; overflow:hidden; height:270px; margin-bottom:30px; background:#000; position:relative;}
-#container_img_slide img {width:100%; opacity:1; vertical-align:middle; position:relative; margin-top: -30%;}
-#name_job {color:#fff; position:absolute; width:100%; top:40%; z-index:1; margin: 0;}
-.url_job {font-size:26px; font-style:italic; font-weight:300;}
-.img_job {margin-top:60px; max-width:100%;}
 
-/* Waltham */
-#effect_waltham {position:relative;}
-#effect_waltham a:hover #first_waltham {opacity: 0; transition: opacity 0.8s linear;  -moz-transition: opacity 0.8s linear; -webkit-transition: opacity 0.8s linear;}
-#effect_waltham a:hover #second_waltham {opacity:1; transition: opacity 0.8s linear; -moz-transition: opacity 0.8s linear; -webkit-transition: opacity 0.8s linear;}
-#first_waltham {opacity:1; transition: opacity 0.8s linear; -moz-transition: opacity 0.8s linear; -webkit-transition: opacity 0.8s linear;
- position:relative; z-index:101;}
-#second_waltham { position:absolute; z-index:100; left:10px; top:0; {opacity:0; transition: opacity 0.8s linear; -moz-transition: opacity 0.8s linear; -webkit-transition: opacity 0.8s linear;}
+
+
+
+
+
+
+
+
+
+
+
+
+
